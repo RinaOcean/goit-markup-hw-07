@@ -1,0 +1,31 @@
+.address {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 14px;
+}
+
+.address-list-link {
+  display: flex;
+  align-items: center;
+}
+
+.address-list-link:hover,
+.address-list-link:focus {
+  color: var(--accent-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.phone-icon {
+  width: 10px;
+  height: 16px;
+}
+
+.mail-icon {
+  width: 16px;
+  height: 12px;
+}

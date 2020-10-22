@@ -7,20 +7,20 @@
 @import "./base/container";
 
 // components
-@import "./components/modal-button";
+
 @import "./components/logo";
 @import "./components/address";
 @import "./components/navigation-links";
 @import "./components/title";
 @import "./components/link-current";
-@import "./components/modal";
 @import "./components/social-media";
 
 // layout
 @import "./layout/header";
-@import "./layout/hero";
-@import "./layout/advantages";
-@import "./layout/gallery";
-@import "./layout/team";
-@import "./layout/clients";
 @import "./layout/footer";
+
+// filter
+@import "./layout/filter";
+
+// portfolio
+@import "./layout/portfolio";

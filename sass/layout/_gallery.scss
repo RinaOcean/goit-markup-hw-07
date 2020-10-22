@@ -1,0 +1,36 @@
+.gallery {
+  padding-bottom: 94px;
+}
+
+.gallery-list-item {
+  position: relative;
+}
+
+.gallery .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.text-wrapper {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.gallery-label {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.143;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
