@@ -12,13 +12,13 @@
 .hero-title {
   width: 696px;
   text-align: center;
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--dark-theme-color);
+  color: $dark-theme-color;
   margin: 0 auto;
 }

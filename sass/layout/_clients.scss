@@ -47,16 +47,16 @@
   justify-content: center;
   width: 170px;
   height: 90px;
-  border: 1px solid var(--icons-color);
-  color: var(--icons-color);
+  border: 1px solid $icons-color;
+  color: $icons-color;
   border-radius: 4px;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-link:hover,
 .clients-list-link:focus {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
+  border: 1px solid $accent-color;
+  color: $accent-color;
 }
 
 .clients-logo {

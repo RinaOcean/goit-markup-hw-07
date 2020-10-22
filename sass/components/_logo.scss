@@ -1,5 +1,5 @@
 .logo {
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -8,5 +8,13 @@
 }
 
 .logo-web {
-  color: var(--accent-color);
+  color: $accent-color;
+}
+
+.logo-studio-dark {
+  color: $dark-logo-color;
+}
+
+.logo-studio-light {
+  color: $dark-theme-color;
 }

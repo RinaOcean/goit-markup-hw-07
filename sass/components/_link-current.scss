@@ -1,6 +1,6 @@
 .link-current {
   position: relative;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .link-current::after {
@@ -12,6 +12,6 @@
   height: 4px;
   bottom: -32px;
 
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border-radius: 2px;
 }

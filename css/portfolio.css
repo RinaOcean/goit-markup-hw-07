@@ -79,6 +79,14 @@ h3 {
   color: var(--accent-color);
 }
 
+.logo-studio-dark {
+  color: var(--dark-logo-color);
+}
+
+.logo-studio-light {
+  color: var(--dark-theme-color);
+}
+
 .address {
   font-family: var(--main-font);
   font-style: normal;
@@ -88,6 +96,20 @@ h3 {
 .address-list-link {
   display: flex;
   align-items: center;
+}
+
+.address-light-theme {
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.address-dark-theme {
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--dark-theme-secondary-color);
 }
 
 .address-list-link:hover,
@@ -227,17 +249,6 @@ h3 {
   margin-left: 50px;
 }
 
-.address-light-theme {
-  font-weight: 500;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
-}
-
-.logo-studio-dark {
-  color: var(--dark-logo-color);
-}
-
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -248,23 +259,12 @@ h3 {
   display: flex;
 }
 
-.logo-studio-light {
-  color: var(--dark-theme-color);
-}
-
 .location {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--dark-theme-color);
-}
-
-.address-dark-theme {
-  font-weight: 400;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: var(--dark-theme-secondary-color);
 }
 
 .footer .address {

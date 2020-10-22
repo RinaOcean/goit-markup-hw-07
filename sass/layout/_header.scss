@@ -7,7 +7,7 @@
   border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 25px;
-  background-color: var(--dark-theme-color);
+  background-color: $dark-theme-color;
 }
 
 .page-header .container {
@@ -36,15 +36,4 @@
 
 .page-header .address-list-item + .address-list-item {
   margin-left: 50px;
-}
-
-.address-light-theme {
-  font-weight: 500;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
-}
-
-.logo-studio-dark {
-  color: var(--dark-logo-color);
 }

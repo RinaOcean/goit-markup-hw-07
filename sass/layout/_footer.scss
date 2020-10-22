@@ -8,23 +8,12 @@
   display: flex;
 }
 
-.logo-studio-light {
-  color: var(--dark-theme-color);
-}
-
 .location {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: var(--dark-theme-color);
-}
-
-.address-dark-theme {
-  font-weight: 400;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: var(--dark-theme-secondary-color);
+  color: $dark-theme-color;
 }
 
 .footer .address {
@@ -36,12 +25,12 @@
 }
 
 .footer .title {
-  font-family: "Roboto", sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
-  color: var(--dark-theme-color);
+  color: $dark-theme-color;
   text-align: start;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -71,11 +60,11 @@
 
 .footer .social-media-link:hover,
 .footer .social-media-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .footer .social-media-icons {
-  fill: var(--dark-theme-color);
+  fill: $dark-theme-color;
 }
 
 .form-wraper {
@@ -94,7 +83,7 @@
   padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
 
-  color: var(--dark-theme-color);
+  color: $dark-theme-color;
   background-color: transparent;
 
   box-sizing: border-box;
@@ -114,11 +103,11 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  color: var(--dark-theme-color);
+  color: $dark-theme-color;
   letter-spacing: 0.06em;
   text-align: left;
 
-  background: var(--accent-color);
+  background: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-style: none;
@@ -131,7 +120,7 @@
   width: 24px;
   height: 24px;
   background-image: url("../images/icon-send.svg");
-  fill: var(--dark-theme-color);
+  fill: $dark-theme-color;
   background-repeat: no-repeat;
   background-position: center;
 }

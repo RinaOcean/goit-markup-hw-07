@@ -28,7 +28,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   margin-top: 20px;
 }
 
@@ -38,7 +38,7 @@
   line-height: 1.875;
   letter-spacing: 0.03em;
   margin-top: 4px;
-  color: var(--main-text-color);
+  color: $main-text-color;
 }
 
 .work-card {
