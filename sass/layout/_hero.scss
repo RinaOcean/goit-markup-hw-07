@@ -7,18 +7,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
 
-.hero-title {
-  width: 696px;
-  text-align: center;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.364;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: $dark-theme-color;
-  margin: 0 auto;
+  &-title {
+    width: 696px;
+    text-align: center;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $dark-theme-color;
+    margin: 0 auto;
+  }
 }

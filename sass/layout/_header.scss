@@ -9,31 +9,3 @@
   padding-bottom: 25px;
   background-color: $dark-theme-color;
 }
-
-.page-header .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.page-header .navigation-list {
-  display: flex;
-  margin-left: 93px;
-}
-
-.page-header .navigation-list-item + .navigation-list-item {
-  margin-left: 50px;
-}
-
-.page-header .address {
-  display: flex;
-  margin-left: auto;
-}
-
-.page-header .address-list {
-  display: flex;
-}
-
-.page-header .address-list-item + .address-list-item {
-  margin-left: 50px;
-}

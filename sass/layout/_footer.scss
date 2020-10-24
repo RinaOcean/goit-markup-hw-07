@@ -2,10 +2,18 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
-}
 
-.footer .container {
-  display: flex;
+  & .title {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    color: $dark-theme-color;
+    text-align: start;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
 }
 
 .location {
@@ -16,57 +24,6 @@
   color: $dark-theme-color;
 }
 
-.footer .address {
-  margin-top: 20px;
-}
-
-.footer .address-list-item:not(:first-child) {
-  margin-top: 9px;
-}
-
-.footer .title {
-  font-family: $main-font;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.03em;
-  color: $dark-theme-color;
-  text-align: start;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-.social {
-  padding-top: 12px;
-  margin-left: 85px;
-}
-
-.footer .social-media {
-  width: 100%;
-  height: 44px;
-}
-
-.footer .social-media-link {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer .social-media-item + .social-media-item {
-  margin-left: 10px;
-}
-
-.footer .social-media-link:hover,
-.footer .social-media-link:focus {
-  background-color: $accent-color;
-}
-
-.footer .social-media-icons {
-  fill: $dark-theme-color;
-}
-
 .form-wraper {
   margin-left: 93px;
   padding-top: 12px;
@@ -75,20 +32,20 @@
 .subscribe-form {
   display: inline-flex;
   align-items: center;
-}
 
-.subscribe-form-input {
-  width: 358px;
-  height: 50px;
-  padding: 15px 16px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  &-input {
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
 
-  color: $dark-theme-color;
-  background-color: transparent;
+    color: $dark-theme-color;
+    background-color: transparent;
 
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
 }
 
 .subscribe-button {
@@ -112,15 +69,15 @@
   border-radius: 4px;
   border-style: none;
   cursor: pointer;
-}
 
-.subscribe-button::after {
-  content: "";
+  &::after {
+    content: "";
 
-  width: 24px;
-  height: 24px;
-  background-image: url("../images/icon-send.svg");
-  fill: $dark-theme-color;
-  background-repeat: no-repeat;
-  background-position: center;
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/icon-send.svg");
+    fill: $dark-theme-color;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }

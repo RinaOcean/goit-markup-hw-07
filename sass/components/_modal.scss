@@ -9,16 +9,12 @@
   background-color: rgba(0, 0, 0, 0.2);
 
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.backdrop.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -200%);
+  &.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 
 .modal {
@@ -36,6 +32,10 @@
 
   transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .backdrop.is-hidden & {
+    transform: translate(-50%, -200%);
+  }
 }
 
 .close-modal-btn {
@@ -48,6 +48,11 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: $dark-theme-color;
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .close-icon {
@@ -55,11 +60,6 @@
   height: 11px;
 
   fill: currentColor;
-}
-
-.close-modal-btn:hover,
-.close-modal-btn:focus {
-  color: $accent-color;
 }
 
 .form-title {
@@ -93,6 +93,10 @@
   border-radius: 4px;
 
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    outline-color: $accent-color;
+  }
 }
 
 .form-field-wrapper {
@@ -112,21 +116,16 @@
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-input:focus,
-.comment-field:focus {
-  outline-color: $accent-color;
-}
-
 .form-field {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.form-field:focus-within > .form-icon {
-  fill: $accent-color;
-}
+  &:focus-within > .form-icon {
+    fill: $accent-color;
+  }
 
-.form-field:focus-within {
-  color: $accent-color;
+  &:focus-within {
+    color: $accent-color;
+  }
 }
 
 .comment-field {
@@ -138,28 +137,38 @@
   border-radius: 4px;
   resize: none;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    outline-color: $accent-color;
+  }
 }
 
-.agreement-terms-label {
-  display: inline-flex;
-  align-items: center;
+.agreemant-terms {
+  text-decoration-line: underline;
+  color: $accent-color;
+  cursor: pointer;
 
-  padding: 0 12px;
-  margin-top: 20px;
-  text-align: end;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
+  &-label {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 0 12px;
+    margin-top: 20px;
+    text-align: end;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+  }
 }
 
 .checkbox-input {
   margin-top: 20px;
   appearance: none;
-}
 
-.checkbox-input:checked + .checkbox-icon {
-  background-color: $accent-color;
-  border: none;
+  &:checked + .checkbox-icon {
+    background-color: $accent-color;
+    border: none;
+  }
 }
 
 .checkbox-icon {
@@ -170,12 +179,6 @@
   border: 2px solid $secondary-text-color;
   border-radius: 4px;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.agreemant-terms {
-  text-decoration-line: underline;
-  color: $accent-color;
-  cursor: pointer;
 }
 
 .submit-button {

@@ -4,4 +4,37 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+
+  .page-header & {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .advantages & {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .gallery & {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  .work-gallery & {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  .staff & {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  .footer & {
+    display: flex;
+  }
 }

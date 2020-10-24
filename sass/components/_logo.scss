@@ -5,16 +5,16 @@
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-}
 
-.logo-web {
-  color: $accent-color;
-}
+  &-web {
+    color: $accent-color;
+  }
 
-.logo-studio-dark {
-  color: $dark-logo-color;
-}
+  &-studio-dark {
+    color: $dark-logo-color;
+  }
 
-.logo-studio-light {
-  color: $dark-theme-color;
+  &-studio-light {
+    color: $dark-theme-color;
+  }
 }
