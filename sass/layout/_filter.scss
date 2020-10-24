@@ -1,7 +1,6 @@
 .filter-list {
   width: 611px;
-  display: flex;
-  justify-content: space-between;
+  @extend %flex-sbtwn;
   margin-left: auto;
   margin-right: auto;
 }
@@ -16,14 +15,15 @@
 
   background-color: #f5f4fa;
   border-style: none;
-  min-width: 73px;
-  height: 38px;
+
+  @include box(min-width: 73px, 38px);
+
   padding: 6px 22px;
   border-radius: 4px;
 
   cursor: pointer;
 
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %transition;
 
   &:hover,
   &:focus {

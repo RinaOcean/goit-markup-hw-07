@@ -1,17 +1,15 @@
 .modal-button {
   display: block;
   font-family: $main-font;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
+  @include font(700, 16px, 30px, 0.06em);
   text-align: center;
-  letter-spacing: 0.06em;
   color: $dark-theme-color;
   background-color: $accent-color;
   border-style: none;
   margin: 0 auto;
-  min-width: 200px;
-  height: 50px;
+
+  @include box(min-width: 200px, 50px);
+
   border-radius: 4px;
   margin-top: 30px;
   cursor: pointer;

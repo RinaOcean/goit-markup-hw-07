@@ -3,9 +3,8 @@
   padding-bottom: 94px;
 
   &-list {
-    display: flex;
+    @extend %flex-sbtwn;
     align-items: center;
-    justify-content: space-between;
     margin: 0 auto;
     margin-top: 50px;
   }
@@ -14,12 +13,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
-    height: 90px;
+
+    @include box(170px, 90px);
+
     border: 1px solid $icons-color;
     color: $icons-color;
     border-radius: 4px;
-    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
 
     &:hover,
     &:focus {
@@ -34,31 +34,25 @@
 }
 
 .logo-1 {
-  width: 44px;
-  height: 49px;
+  @include box(44px, 49px);
 }
 
 .logo-2 {
-  width: 40px;
-  height: 52px;
+  @include box(40px, 52px);
 }
 
 .logo-3 {
-  width: 41px;
-  height: 43px;
+  @include box(41px, 43px);
 }
 
 .logo-4 {
-  width: 80px;
-  height: 42px;
+  @include box(80px, 42px);
 }
 
 .logo-5 {
-  width: 59px;
-  height: 47px;
+  @include box(59px, 47px);
 }
 
 .logo-6 {
-  width: 88px;
-  height: 45px;
+  @include box(88px, 45px);
 }

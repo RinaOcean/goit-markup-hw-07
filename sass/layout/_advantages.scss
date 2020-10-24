@@ -15,8 +15,9 @@
       content: "";
       display: block;
 
-      width: 270px;
-      height: 120px;
+      
+      @include box(270px,120px);
+      
       margin-bottom: 30px;
 
       border-radius: 4px;

@@ -12,13 +12,11 @@
   }
 
   .advantages & {
-    display: flex;
-    justify-content: space-between;
+    @extend %flex-sbtwn;
   }
 
   .gallery & {
-    display: flex;
-    justify-content: space-between;
+    @extend %flex-sbtwn;
     margin-top: 50px;
   }
 
@@ -29,8 +27,7 @@
   }
 
   .staff & {
-    display: flex;
-    justify-content: space-between;
+    @extend %flex-sbtwn;
     margin-top: 50px;
   }
 

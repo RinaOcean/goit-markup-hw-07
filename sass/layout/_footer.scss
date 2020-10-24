@@ -34,8 +34,8 @@
   align-items: center;
 
   &-input {
-    width: 358px;
-    height: 50px;
+    @include box(358px, 50px);
+
     padding: 15px 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
 
@@ -49,11 +49,11 @@
 }
 
 .subscribe-button {
-  display: inline-flex;
+  @extend %flex-sbtwn;
   align-items: center;
-  justify-content: space-between;
-  width: 200px;
-  height: 50px;
+
+  @include box(200px, 50px);
+
   margin-left: 12px;
   padding: 10px 28px;
 
@@ -73,8 +73,8 @@
   &::after {
     content: "";
 
-    width: 24px;
-    height: 24px;
+    @include box(24px);
+
     background-image: url("../images/icon-send.svg");
     fill: $dark-theme-color;
     background-repeat: no-repeat;
