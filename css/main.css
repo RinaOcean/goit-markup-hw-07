@@ -92,8 +92,8 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 1.875;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
   text-align: center;
   color: #ffffff;
   background-color: #2196f3;
@@ -112,8 +112,8 @@ h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 1.19231;
+  line-height: 1.19231;
+  letter-spacing: 0.03em;
 }
 
 .logo-web {
@@ -155,16 +155,16 @@ h3 {
 .address-light-theme {
   font-weight: 500;
   font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 1.42857;
+  line-height: 1.42857;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 
 .address-dark-theme {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 1.71429;
+  line-height: 1.71429;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -202,8 +202,8 @@ h3 {
   color: #212121;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.14286;
+  line-height: 1.14286;
+  letter-spacing: 0.02em;
   cursor: pointer;
 }
 
@@ -223,8 +223,8 @@ h3 {
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 1.16667;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
 }
@@ -233,8 +233,8 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.14286;
+  line-height: 1.14286;
+  letter-spacing: 0.03em;
   color: #ffffff;
   text-align: start;
   text-transform: uppercase;
@@ -321,8 +321,8 @@ h3 {
 .form-title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 1.15;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 12px;
 }
@@ -331,8 +331,8 @@ h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 1.16667;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
   color: #757575;
 }
 
@@ -404,8 +404,8 @@ h3 {
   text-align: end;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 1.71429;
+  line-height: 1.71429;
+  letter-spacing: 0.03em;
 }
 
 .checkbox-input {
@@ -437,8 +437,8 @@ h3 {
   margin-top: 30px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 1.875;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
   color: #ffffff;
@@ -543,8 +543,8 @@ h3 {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 1.36364;
+  line-height: 1.36364;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
   margin: 0 auto;
@@ -558,8 +558,8 @@ h3 {
 .advantages-list-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.14286;
+  line-height: 1.14286;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
@@ -580,8 +580,8 @@ h3 {
 .advantages-list-description {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 1.71429;
+  line-height: 1.71429;
+  letter-spacing: 0.03em;
 }
 
 .advantages-list-item {
@@ -615,8 +615,8 @@ h3 {
 .gallery-label {
   font-weight: 900;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.14286;
+  line-height: 1.14286;
+  letter-spacing: 0.03em;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -643,8 +643,8 @@ h3 {
 .staff-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 1.1875;
+  line-height: 1.1875;
+  letter-spacing: 0.03em;
   color: #212121;
   margin-top: 30px;
 }
@@ -652,8 +652,8 @@ h3 {
 .staff-proffession {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 1.1875;
+  line-height: 1.1875;
+  letter-spacing: 0.03em;
   margin-top: 10px;
   margin-bottom: 16px;
 }
@@ -742,8 +742,8 @@ h3 {
 .location {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 1.71429;
+  line-height: 1.71429;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
@@ -779,8 +779,8 @@ h3 {
   padding: 10px 28px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 1.875;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
   color: #ffffff;
   text-align: left;
   background: #2196f3;
