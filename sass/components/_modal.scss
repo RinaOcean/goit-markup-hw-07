@@ -63,10 +63,7 @@
 }
 
 .form-title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
+  @include font(700, 20px, 23px, 0.03em);
 
   color: #212121;
   margin-bottom: 12px;
@@ -74,10 +71,7 @@
 
 .contact-form {
   font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.167;
-  letter-spacing: 0.01em;
+  @include font(400, 12px, 14px, 0.01em);
 
   color: #757575;
 }
@@ -143,7 +137,7 @@
   }
 }
 
-.agreemant-terms {
+.agreement-terms {
   text-decoration-line: underline;
   color: $accent-color;
   cursor: pointer;
@@ -156,9 +150,7 @@
     margin-top: 20px;
     text-align: end;
 
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
+    @include font(400, 14px, 24px, 0.03em);
   }
 }
 
@@ -191,10 +183,8 @@
   margin: 0 auto;
   margin-top: 30px;
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
+  @include font(700, 16px, 30px, 0.06em);
+
   color: $dark-theme-color;
 
   background: $accent-color;

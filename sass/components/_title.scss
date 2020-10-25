@@ -1,8 +1,16 @@
 .title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
+  @include font(700, 36px, 42px, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   color: $secondary-text-color;
+
+  .footer & {
+    font-family: $main-font;
+
+    @include font(700, 14px, 16px, 0.03em);
+
+    color: $dark-theme-color;
+    text-align: start;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
 }

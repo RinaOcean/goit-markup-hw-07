@@ -1,5 +1,6 @@
 @mixin box($width, $height: $width) {
   width: $width;
+  min-width: $width;
   height: $height;
 }
 

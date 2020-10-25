@@ -3,10 +3,8 @@
   padding-bottom: 94px;
 
   &-list-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.03em;
+    @include font(700, 14px, 16px, 0.03em);
+
     text-transform: uppercase;
     color: $secondary-text-color;
     margin-bottom: 10px;
@@ -15,9 +13,8 @@
       content: "";
       display: block;
 
-      
-      @include box(270px,120px);
-      
+      @include box(270px, 120px);
+
       margin-bottom: 30px;
 
       border-radius: 4px;
@@ -27,10 +24,7 @@
   }
 
   &-list-description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
+    @include font(400, 14px, 24px, 0.03em);
   }
 
   &-list-item {

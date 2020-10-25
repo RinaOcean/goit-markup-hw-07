@@ -6,11 +6,8 @@
   }
 
   &-label {
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 1.143;
+    @include font(900, 14px, 16px, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 
     color: #ffffff;

@@ -6,17 +6,14 @@
 }
 
 .filter-button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
+  @include font(500, 16px, 26px, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   color: $secondary-text-color;
 
   background-color: #f5f4fa;
   border-style: none;
-
-  @include box(min-width: 73px, 38px);
+  width: 73px;
+  height: 38px;
 
   padding: 6px 22px;
   border-radius: 4px;
